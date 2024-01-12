@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width,intial-scale-1.0">
+    <title>Portfolio-Aishanya</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/00d9c51e22.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"> Aishanya Alankrit</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Developer</p>
+                <h1> Hi, I'm <span>Aishanya </span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+<!------------------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>A qualified and professional Software Developer with 1.9 years of experience who brings engineering and creative problem-solving to create experiences people love to use. Persistence, curiosity, and obsessive attention to detail define her work. Actively contributes to open-source projects, cultivating a commitment to continuous skill enhancement, one contribution at a time.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('courses')">Courses</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C++</span></li>
+                            <li><span>ReactJs</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>SQL</span></li>
+                            <li><span>Data Visualization using Power Bi</span></li>
+                            <li><span>Git</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 2022 - Current <br>Developer L2 Wipro(Turbo)</span><br>1.  Deployed the latest patch upgrade for FTI and FCC,Implemented backend enhancements to support new fields in the upgrade, ensuring seamless integration.<br>
+                               2.  Improved Operational Efficiency in User-Bank Interactions.<br>3.  Experienced in crafting dynamic web applications using React.JS , HTML , CSS. Designed and built a webpage to facilitate the organization of internal events for UBS Wipro.</li>
+                            <li><span>May 2020 - June 2020 <br> Intern-BSNL</span><br> Online VT in Advanced Telecom<br> Wireless and  Mobile Connection internship in 5G model.</li>
+                            <li><span>May 2020 - June 2020 <br> KPMG</span><br>Data Analytics Consulting Virtual Internship <br>1  Data Quality Assessment <br> 2.  Building dashboard using Power BI
+                              <br>3.  Data Insights</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="courses">
+                        <ul>
+                            <li><span>Udemy</span><br>Introduction to Web Developer Bootcamp 2021 </li>
+                            <li><span>IIT KharagpurNPTEL</span><br>Database Management System</li>
+                            <li><span>Udemy </span> <br>The Complete SQL Bootcamp - Go from Zero to Hero</li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------portfolio------------>
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Chefkart App</h3>
+                    <p> Helps you order a chef from the app and lets you decide what to cook , good for people living alone or very busy to cook</p>
+                    <a href="https://heychefkart.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>ChatApp</h3>
+                    <p>A website where you can chat and get replies back , fetching API for the same.</p>
+                    <a href="https://github.com/Aishanya12/ChatApp"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Web-App</h3>
+                    <p>A website where you can identify weather reports and location as you search them , fetching API for the same.</p>
+                    <a href="https://github.com/Aishanya12/weather-app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Aishanya12" class="btn">See More on my Github Profile</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>aishanya012@gmail.com</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/aishanya-alankrit-b7722616b/"><i class="fa-brands fa-linkedin"></i></i></a>
+            </div>
+            <a href="images/Aishanya_Alankrit_DeveloperL2_Resume (1).pdf" class="btn btn 2">Download Resume</a>
+        </div>
+
+    </div>
+</div>
+<script>
+
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right="0";
+
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+    
+</script>
+</body>
+</html>
